@@ -4,8 +4,6 @@
 
 ### JAVA线程的创建
 
-**视频源：**01~05.avi
-
 **知识点：**创建线程的两种方式
 
 ​		通过Thread直接卖票的缺点
@@ -193,8 +191,6 @@ synchronized (this){
 
 ### 线程join
 
-**视频源：**06.线程join.avi
-
 **知识点：**普通线程执行没有顺序，并行执行
 
 ​	   	加入join方法后，变为串行执行
@@ -260,8 +256,6 @@ class MyThread extends Thread {
 
 ### 守护线程
 
-**视频源：**07.守护线程.avi
-
 **知识点：**自带的的一些方法
 
 **概念：** 用户线程 ：主线程执行结束 用户线程可以继续执行
@@ -308,8 +302,6 @@ class Main {
 ------
 
 ### 线程池
-
-**视频源：**08.线程池.avi
 
 **知识点：**线程池如何创建使用
 
@@ -365,8 +357,6 @@ JDK5开始，java内置支持线程池
 ------
 
 ### Kotlin协程:第一个协程启动
-
-**视频源：**09.第一个协程启动.avi
 
 **知识点：**协程的启动
 
@@ -436,8 +426,6 @@ fun main(args: Array<String>) {
 
 ### 协程打印数据
 
-**视频源：**10.协程打印数据.avi
-
 **代码:**
 
 ```kotlin
@@ -496,8 +484,6 @@ fun main(args: Array<String>) {
 
 ### launch函数的参数和返回值
 
-**视频源：**12.launch函数的参数和返回值.avi
-
 **需求：** Ctrl+launch   查看launch参数及返回值
 
 **代码:**
@@ -522,8 +508,6 @@ fun main(args: Array<String>) {
 ------
 
 ### launch函数的第一个参数
-
-**视频源：**13.launch函数的第一个参数.avi
 
 **代码:**
 
@@ -555,8 +539,6 @@ fun main(args: Array<String>) {
 ------
 
 ### ForkJoinPool
-
-**视频源：** 14.ForkJoinPool的原理.avi
 
 **知识点：**
 
@@ -649,8 +631,6 @@ class MyRunable:Runnable{
 
 ### 协程启动之后的处理
 
-**视频源：** 15.协程启动之后的处理.avi
-
 **知识点：**
 
 解决方案1: 让主线程睡眠
@@ -680,8 +660,6 @@ fun main(args: Array<String>) = runBlocking{
 ------
 
 ### 协程实现原理
-
-**视频源：** 17.协程实现原理.avi
 
 **知识点：**
 
@@ -729,8 +707,6 @@ fun main(args: Array<String>) = runBlocking {
 
 ### 挂起函数
 
-**视频源：** 19.挂起函数.avi
-
 **知识点：**
 
 - 可以被挂起执行, 到时间后从线程池中空闲的线程中恢复执行
@@ -765,8 +741,6 @@ suspend fun myTask(){
 ------
 
 ### 线程和协程效率对比
-
-**视频源：** 20.线程和协程效率对比
 
 **知识点：**
 
@@ -812,8 +786,6 @@ class MyThread:Thread(){
 
 ### 协程的取消
 
-**视频源：** 21.协程的取消.avi
-
 **知识点：**cancel关键字
 
 **代码:**
@@ -840,8 +812,6 @@ fun main(args: Array<String>)= runBlocking {
 
 ### 协程定时取消
 
-**视频源：** 21.协程定时取消.avi
-
 **知识点：**withTimeout关键字
 
 **代码:**
@@ -863,8 +833,6 @@ fun main(args: Array<String>) = runBlocking {
 ------
 
 ### 协程取消失效
-
-**视频源：** 22.协程取消失效avi
 
 **知识点：**不能取消阻塞的Thread.sleep
 
@@ -927,8 +895,6 @@ fun main(args: Array<String>) = runBlocking{
 
 ### 协程async启动
 
-**视频源：**24.协程async启动.avi
-
 **知识点：**
 
 - 第一种启动协程方式: launch, 没有返回值
@@ -972,8 +938,6 @@ suspend fun job2():String{
 ------
 
 ### 协程上下文
-
-**视频源：** 26.协程上下文.avi
 
 **代码:**
 

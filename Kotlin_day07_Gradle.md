@@ -1,6 +1,6 @@
 ## Kotlin-Gradle-day07笔记
 
-##### Author：蔡紫晨
+##### 
 
 ### gradle课程内容+介绍原始的工程构建方式
 
@@ -107,7 +107,7 @@ eclipse构建工程很麻烦,需要gradle来解决
 
 ------
 
-##### Author：阳德武
+##### 
 
 # gradle打包
 
@@ -236,7 +236,7 @@ dependencies {
 
 ------
 
-##### Author：李钰
+##### 
 
 ### 第一个task任务
 
@@ -435,9 +435,7 @@ classLoaderScope ---- org.gradle.api.internal.initialization.DefaultClassLoaderS
 
 ------
 
-------
-
-##### Author：韩飞
+##### 
 
 ### 依赖的配置阶段
 
@@ -574,7 +572,7 @@ task("删除文件",Delete::class){
 
 ------
 
-##### Author：徐雄立
+##### 
 
 ### 分模块开发
 
